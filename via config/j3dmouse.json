@@ -1,0 +1,44 @@
+{
+"name": "j3dmouse",
+"vendorId": "0xCA09",
+"productId": "0x4F4C",
+"matrix": {"rows": 1, "cols": 3},
+"customKeycodes": [
+  {
+    "name": "BASE",
+    "title": "Normal key",
+    "shortName": "BASE"
+  },
+  {
+    "name": "LOWER",
+    "title": "LOWER key",
+    "shortName": "LOWER"
+  },
+  {
+    "name": "RAISE",
+    "title": "RAISE key",
+    "shortName": "RAISE"
+  },
+  {
+    "name": "ADJUST",
+    "title": "ADJUST key",
+    "shortName": "ADJUST"
+  },
+  {
+    "name": "JOYMODE",
+    "title": "JOY MODE",
+    "shortName": "JMOD"
+  },
+  {
+    "name": "JOYRST",
+    "title": "JOYSTICK RESET",
+    "shortName": "JRST"
+  }
+],
+"layouts": {
+    "keymap": [
+        [{"x": 0.75},"0,0",{"x": 0.75},"0,2",{"x": 0.75}, "0,1"]
+      ]
+  },
+  "menus": []
+}

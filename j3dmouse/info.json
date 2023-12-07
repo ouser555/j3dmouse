@@ -1,0 +1,38 @@
+{
+    "manufacturer": "ouser555",
+    "keyboard_name": "j3dmouse",
+    "maintainer": "ouser555",
+    "bootloader": "rp2040",
+    "build": {
+        "lto": true
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgb_matrix": false
+    },
+    "matrix_pins": {
+        "direct":[["GP15", "GP14", "GP8"]]
+    },
+    "processor": "RP2040",
+    "tags": ["RP2040", "MX", "MX spaced"],
+    "url": "https://",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x4F4C",
+        "vid": "0xCA09"
+    },
+    "layouts": {
+        "LAYOUT_3key": {
+            "layout": [
+                {"label":"K01", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label":"K02", "matrix": [0, 1], "x": 0, "y": 1},
+                {"label":"KJ01", "matrix": [0, 2], "x": 0, "y": 2}                
+            ]
+        }
+    }
+}
